@@ -1,4 +1,4 @@
-CC = xcrun -sdk iphoneos clang -arch arm64
+CC = xcrun -sdk iphoneos clang -arch arm64e
 TOOLS_SRC = $(wildcard *.c)
 TOOLS = $(TOOLS_SRC:.c=)
 
